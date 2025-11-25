@@ -1,18 +1,15 @@
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import a1 from '../../../assets/images/home/home-popular-choice-01.png';
-import a2 from '../../../assets/images/home/home-popular-choice-02.png';
-import a3 from '../../../assets/images/home/home-popular-choice-03.png';
-
-// Import Swiper styles
+import { popularChoicesData } from '../index';
+import { Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
-// import required modules
-import { Pagination } from 'swiper/modules';
 
 export const PopularChoices = () => {
+  
+  const products = popularChoicesData;
+
   return (
     <div className='popular-choice-container'>
       <h2 className='popular-choice-title'>Most popular choices</h2>
@@ -28,12 +25,12 @@ export const PopularChoices = () => {
         modules={[Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide><img src={a1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={a3} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={a2} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={a1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={a2} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={a3} alt="" /></SwiperSlide>
+        {products.map((product, index) => (
+          <SwiperSlide key={index}>
+            <img src={product.img} alt={product.text} />
+            <p>{product.text}</p>
+          </SwiperSlide>
+        ))}
       </Swiper>
     </div>
   );

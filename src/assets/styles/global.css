@@ -97,7 +97,6 @@
 .mySwiper .swiper-slide-next img {
   transform: scale(0.75);
   /* Disminuye tamaño */
-  opacity: 0.8;
 }
 
 .popular-choice-container .swiper {
@@ -111,6 +110,6 @@
 
 .swiper-pagination span {
   background-color: var(--color-secondary);
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
 }
