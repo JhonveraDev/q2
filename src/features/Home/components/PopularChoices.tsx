@@ -7,7 +7,7 @@ import 'swiper/css/pagination';
 
 
 export const PopularChoices = () => {
-  
+
   const products = popularChoicesData;
 
   return (
@@ -26,9 +26,9 @@ export const PopularChoices = () => {
         className="mySwiper"
       >
         {products.map((product, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={index} className='swiper-slide-item'>
             <img src={product.img} alt={product.text} />
-            <p>{product.text}</p>
+            <button className="slide-button">{product.text}</button>
           </SwiperSlide>
         ))}
       </Swiper>
