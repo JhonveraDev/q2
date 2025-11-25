@@ -1,5 +1,9 @@
+import { PopularChoices } from "../index"
+
 export const HomePage = () => {
   return (
-    <div>HomePage</div>
+    <>
+      <PopularChoices />
+    </>
   )
 }

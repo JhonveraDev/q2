@@ -4,8 +4,6 @@ import { HomePage } from './features/Home/pages/HomePage';
 import { NavBar } from './ui/layout/NavBar';
 import { Footer } from './ui/layout/Footer';
 
-
-
 export default function App() {
   return (
     <div className="main-container">
