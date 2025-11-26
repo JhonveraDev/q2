@@ -15,7 +15,7 @@ export const HeroHome = () => {
           <p>Step into a season of flavor and fantasy. We’ve combined fall favorites like pumpkin spice, matcha, apple, chai, and more to create a lineup of drinks inspired by iconic fairy tales.</p>
         </div>
         <div className="hero-image">
-          <img src={heroMainImage} alt="" />
+          <img src={heroMainImage} alt="" className="main-hero-image"/>
           <img src={heroElementFloating01} alt="element floating" className="hero-e1" />
           <img src={heroElementFloating02} alt="element floating" className="hero-e2" />
           <img src={heroElementFloating03} alt="element floating" className="hero-e3" />

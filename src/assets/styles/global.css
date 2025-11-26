@@ -27,7 +27,7 @@
   background-color: var(--bg-main);
   display: flex;
   justify-content: center;
-  padding-top: 28px;
+  padding-top: 30px;
 }
 
 .content-wrap {
@@ -68,7 +68,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 70px 80px 95px 50px;
+  padding: 70px 80px 85px 50px;
 }
 
 .hero-image {
@@ -79,10 +79,9 @@
   width: 50%;
 }
 
-.hero-image img {
+.hero-image .main-hero-image {
   height: auto;
-  width: 95%;
-
+  width: 97%;
 }
 
 .hero-image .hero-e1,
@@ -96,7 +95,7 @@
 .hero-image .hero-e1 {
   bottom: 0;
   left: 0;
-  transform: translate(115px, 25px);
+  transform: translate(115px, 20px);
   width: 202px;
 }
 
@@ -110,7 +109,7 @@
 .hero-image .hero-e3 {
   right: 0;
   top: 0;
-  transform: translate(-8px, -173px);
+  transform: translate(-8px, -176px);
   width: 100px;
 }
 
