@@ -26,12 +26,39 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  background-color: var(--bg-main);
+  padding-top: 27px;
 }
 
 .content-wrap {
   width: 1440px;
   max-width: 1440px;
+}
+
+/* ===== NAVBAR - Section / Menu Items ===== */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 145px 0 80px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.navbar-link {
+  font-family: var(--font-main);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-menu);
+  text-decoration: none;
+}
+
+.navbar-logo {
+  display: flex;
 }
 
 /* ===== HOME PAGE - Section / Popular Choices ===== */
@@ -139,5 +166,5 @@
   font-family: var(--font-main);
   color: var(--color-white);
   font-size: 17px;
-  transition: all 0.35s ease;
+  transition: all 0.5s cubic-bezier(.4, 0, .2, 1);
 }
