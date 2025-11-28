@@ -10,6 +10,7 @@ export const HeroHome = () => {
   return (
     <>
       <div className="hero-home">
+        <div className="mid-bg"></div>
         <div className="hero-text">
           <h1>Once upon a fall</h1>
           <p>Step into a season of flavor and fantasy. We’ve combined fall favorites like pumpkin spice, matcha, apple, chai, and more to create a lineup of drinks inspired by iconic fairy tales.</p>
