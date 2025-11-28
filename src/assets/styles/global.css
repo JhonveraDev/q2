@@ -285,5 +285,43 @@
   position: absolute;
   transform: translateX(-50%);
   transition: all 0.55s cubic-bezier(.22, .61, .36, 1);
+}
 
+/* ===== FOOTER ===== */
+.footer {
+  padding: 20px 70px 50px;
+}
+
+.footer-title {
+  color: var(--text--main);
+  font-size: 20px;
+  font-family: var(--font-secondary);
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.footer ul li img {
+  height: 27px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+
+.social-networks {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.footer-container a {
+  color: var(--text--main);
+  font-family: var(--font-main);
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
 }
