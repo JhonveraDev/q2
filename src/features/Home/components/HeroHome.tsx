@@ -9,14 +9,14 @@ import { Button } from "../../../ui/components/Button";
 export const HeroHome = () => {
   return (
     <>
-      <div className="hero-home">
+      <div className="hero-home-container">
         <div className="mid-bg"></div>
         <div className="hero-text">
           <h1>Once upon a fall</h1>
           <p>Step into a season of flavor and fantasy. We’ve combined fall favorites like pumpkin spice, matcha, apple, chai, and more to create a lineup of drinks inspired by iconic fairy tales.</p>
         </div>
         <div className="hero-image">
-          <img src={heroMainImage} alt="" className="main-hero-image"/>
+          <img src={heroMainImage} alt="" className="main-hero-image" />
           <img src={heroElementFloating01} alt="element floating" className="hero-e1" />
           <img src={heroElementFloating02} alt="element floating" className="hero-e2" />
           <img src={heroElementFloating03} alt="element floating" className="hero-e3" />
@@ -26,8 +26,8 @@ export const HeroHome = () => {
       </div>
 
       <div className="hero-buttons">
-        <Button text={'Order now'} />
-        <Button text={'Find a store'} />
+        <Button text='Order now' className='hero-button'/>
+        <Button text='Find a store' className='hero-button'/>
       </div>
     </>
   )
