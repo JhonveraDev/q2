@@ -5,7 +5,6 @@ import youtube from '../../assets/images/global/youtube.svg';
 import spotify from '../../assets/images/global/spotify.svg';
 import tiktok from '../../assets/images/global/tiktok.svg';
 
-
 export const Footer = () => {
   return (
     <div className="footer">

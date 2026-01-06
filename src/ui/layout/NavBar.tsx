@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/global/qargo-logo.png";
 
-
 export const NavBar = () => {
 
   const links = [
@@ -13,7 +12,6 @@ export const NavBar = () => {
     // { to: "/experiences", label: "Experiences" },
     { to: "/blogs", label: "Blogs" },
     { to: "/contact-us", label: "Contact Us" },
-    // { to: "/coming-soon", label: "Coming Soon" },
   ];
 
   return (

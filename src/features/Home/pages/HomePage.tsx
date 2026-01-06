@@ -9,3 +9,7 @@ export const HomePage = () => {
     </>
   )
 }
+
+// REVISION DE TEXTOS, COLORES, WEIGHT ETC
+
+// REVISAR TODO LO QUE SE PUEDA OPTIMIZAR CON EL .MAP
