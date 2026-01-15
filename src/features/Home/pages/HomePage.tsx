@@ -1,10 +1,11 @@
-import { PopularChoices, HeroHome, FindStore } from "../index"
+import { PopularChoices, HeroHome, FindStore, StartYourFranchise } from "../index"
 
 export const HomePage = () => {
   return (
     <>
       <HeroHome />
       <PopularChoices />
+      <StartYourFranchise />
       <FindStore />
     </>
   )

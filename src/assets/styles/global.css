@@ -71,7 +71,7 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 70px 80px 95px 50px;
+  padding: 70px 80px 30px 50px;
 }
 
 .mid-bg {
@@ -90,7 +90,7 @@
   display: flex;
   justify-content: center;
   position: relative;
-  width: 50%;
+  width: 60%;
 }
 
 .hero-image .main-hero-image {
@@ -143,7 +143,7 @@
 .hero-text {
   padding-top: 25px;
   padding-left: 55px;
-  width: 50%;
+  width: 40%;
   z-index: 2;
 }
 
@@ -195,7 +195,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 75px 60px;
+  padding: 75px 40px;
   text-align: center;
 }
 
@@ -366,4 +366,69 @@
   font-size: 20px;
   font-weight: 300;
   text-decoration: none;
+}
+
+/* ===== HOME PAGE - Section / Start your Franchise ===== */
+
+.start-franchise {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px 0 80px;
+}
+
+.start-franchise__image-wrapper {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.start-franchise__image {
+  width: 636px;
+  height: 636px;
+  margin-right: 8px;
+}
+
+.start-franchise__content {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  padding: 0 80px;
+}
+
+.start-franchise__title {
+  color: var(--text--main);
+  font-family: var(--font-main);
+  font-size: 46px;
+  font-weight: 600;
+  width: 70%;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.start-franchise__description {
+  color: #919191;
+  line-height: 177.3%;
+  font-family: var(--font-main);
+  font-size: 18px;
+  width: 95%;
+}
+
+.start-franchise__buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 50px;
+}
+
+.start-franchise__button {
+  background-color: var(--color-main);
+  width: 204px;
+  height: 60px;
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  font-family: var(--font-main);
+  font-weight: 600;
 }

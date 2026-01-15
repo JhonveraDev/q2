@@ -5,12 +5,12 @@ export const NavBar = () => {
 
   const links = [
     { to: "/", label: "Home" },
-    { to: "/about", label: "About" },
     { to: "/our-menu", label: "Our Menu" },
     { to: "/locations", label: "Locations" },
     { to: "/franchise", label: "Franchise" },
-    // { to: "/experiences", label: "Experiences" },
+    { to: "/experiences", label: "Experiences" },
     { to: "/blogs", label: "Blogs" },
+    { to: "/about", label: "About" },
     { to: "/contact-us", label: "Contact Us" },
   ];
 
