@@ -511,7 +511,7 @@
 
 .franchise-buttons {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   justify-content: center;
 }
 
@@ -553,13 +553,13 @@
   color: var(--text--main);
   text-align: center;
   width: 70%;
-  margin: 50px 0 75px 0;
+  margin: 50px 0 65px 0;
 }
 
 .business-models__card-content {
   display: flex;
   flex-direction: column;
-  padding: 0px 25px 140px 25px;
+  padding: 0px 25px 72px 25px;
 }
 
 .business-models__card-title {
@@ -583,7 +583,7 @@
 .business-models__card-list {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 17px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -599,4 +599,46 @@
   align-items: center;
   gap: 12px;
   justify-content: start;
+}
+
+.coffee-investment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 55px 0 90px;
+}
+
+.coffee-investment__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.coffee-investment__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 36px 40px;
+  background-color: aqua;
+  border-radius: 15px;
+  border: 1px solid #B8B8B8;
+  background-color: #F1EFE5;
+}
+
+.coffee-investment__title {
+  color: #A9A8A6;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: var(--font-main);
+  margin: 0px 0px 22px 0px;
+}
+
+.coffee-investment__price {
+  font-family: var(--font-main);
+  font-size: 24px;
+  font-weight: 700;
+  color: #B7AA8C;
+  margin: 0px;
 }

@@ -1,10 +1,10 @@
 import React from 'react';
-import data01 from "../../../assets/images/franchise/franchise-business-model-01.png";
-import franchiseCheck from "../../../assets/images/franchise/franchise-check.png";
 
-// import data02 from "../../../assets/images/franchise/franchise-business-model-02.png";
-// import data03 from "../../../assets/images/franchise/franchise-business-model-03.png";
-// import data04 from "../../../assets/images/franchise/franchise-business-model-04.png";
+import franchiseCheck from "../../../assets/images/franchise/franchise-check.png";
+import data01 from "../../../assets/images/franchise/franchise-business-model-01.png";
+import data02 from "../../../assets/images/franchise/franchise-business-model-02.png";
+import data03 from "../../../assets/images/franchise/franchise-business-model-03.png";
+import data04 from "../../../assets/images/franchise/franchise-business-model-04.png";
 
 
 export const BusinessModels = () => {
@@ -42,66 +42,64 @@ export const BusinessModels = () => {
         <div className="business-models__card">
           <img
             className="business-models__card-image"
-            src={data01}
+            src={data02}
             alt=""
           />
           <div className="business-models__card-content">
             <h3 className="business-models__card-title">
-              Mobile Container
+              Kiosk
             </h3>
             <p className="business-models__card-text">
-              Compact mobile unit perfect for high-traffic locations and events
+              Agile, high-efficiency formats ideally suited for high-traffic locations such as shopping malls, airports, supermarkets, and food courts
             </p>
             <ul className="business-models__card-list">
-              <li className="business-models__card-item">20 ft mobile container</li>
-              <li className="business-models__card-item">Movable unit</li>
-              <li className="business-models__card-item">Quick service model</li>
-              <li className="business-models__card-item">High-traffic locations</li>
-              <li className="business-models__card-item">Lower investment</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> 190 to 800 sq ft</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Compact footprint</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Shared infrastructure ready</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Full Qargo experience</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Speed and flexibility</li>
             </ul>
           </div>
         </div>
         <div className="business-models__card">
           <img
             className="business-models__card-image"
-            src={data01}
+            src={data03}
             alt=""
           />
           <div className="business-models__card-content">
             <h3 className="business-models__card-title">
-              Mobile Container
+              End Cap or Metro Area Stores
             </h3>
             <p className="business-models__card-text">
-              Compact mobile unit perfect for high-traffic locations and events
+              Upscale interior design with premium seating and artistic atmosphere
             </p>
             <ul className="business-models__card-list">
-              <li className="business-models__card-item">20 ft mobile container</li>
-              <li className="business-models__card-item">Movable unit</li>
-              <li className="business-models__card-item">Quick service model</li>
-              <li className="business-models__card-item">High-traffic locations</li>
-              <li className="business-models__card-item">Lower investment</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> 700 to 2,500 sq ft</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Premium interior design</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Artisan coffee bar</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Event space</li>
             </ul>
           </div>
         </div>
         <div className="business-models__card">
           <img
             className="business-models__card-image"
-            src={data01}
+            src={data04}
             alt=""
           />
           <div className="business-models__card-content">
             <h3 className="business-models__card-title">
-              Mobile Container
+              Flagship Store
             </h3>
             <p className="business-models__card-text">
-              Compact mobile unit perfect for high-traffic locations and events
+              Full-service coffee shop with modern architecture and outdoor seating
             </p>
             <ul className="business-models__card-list">
-              <li className="business-models__card-item">20 ft mobile container</li>
-              <li className="business-models__card-item">Movable unit</li>
-              <li className="business-models__card-item">Quick service model</li>
-              <li className="business-models__card-item">High-traffic locations</li>
-              <li className="business-models__card-item">Lower investment</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> 2500+ sq ft</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Indoor & outdoor seating</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Full food menu</li>
+              <li className="business-models__card-item"><img src={franchiseCheck} alt="" /> Drive-thru optional</li>
             </ul>
           </div>
         </div>
