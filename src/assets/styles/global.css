@@ -507,6 +507,7 @@
   background-color: var(--color-main);
   font-size: 24px;
   padding: 21px 50px;
+  font-weight: 600;
 }
 
 .franchise-buttons {
@@ -606,7 +607,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 55px 0 90px;
+  padding: 55px 0 120px;
 }
 
 .coffee-investment__cards {
@@ -641,4 +642,19 @@
   font-weight: 700;
   color: #B7AA8C;
   margin: 0px;
+}
+
+.ready-to-start {
+  background-color: #F1EFE5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 120px 0;
+}
+
+.ready-to-start-buttons {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
 }
