@@ -53,11 +53,46 @@
 }
 
 .navbar-link {
+  position: relative;
   color: var(--text-menu);
   font-family: var(--font-main);
   font-size: 16px;
   font-weight: 500;
   text-decoration: none;
+  padding-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.navbar-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #C49F57;
+  /* dorado */
+  transition: width 0.3s ease;
+}
+
+/* Hover */
+.navbar-link:hover {
+  color: #C49F57;
+  font-weight: 700;
+}
+
+.navbar-link:hover::after {
+  width: 100%;
+}
+
+/* Active */
+.navbar-link.active {
+  color: #C49F57;
+  font-weight: 700;
+}
+
+.navbar-link.active::after {
+  width: 100%;
 }
 
 .navbar-logo {
@@ -431,4 +466,137 @@
   color: var(--color-white);
   font-family: var(--font-main);
   font-weight: 600;
+}
+
+/* ===== FRANCHISE PAGE - Section / Header ===== */
+
+.hero-franchise {
+  min-height: 100vh;
+  background-image: url("../images/franchise/franchise-header.png");
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero-franchise h1 {
+  color: var(--text-secondary);
+  font-family: var(--font-main);
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 87%;
+  width: 50%;
+  text-align: center;
+  margin: 0;
+}
+
+.hero-franchise p {
+  color: var(--text--main);
+  font-family: var(--font-main);
+  line-height: 150%;
+  font-size: 24px;
+  text-align: center;
+  width: 50%;
+  margin: 80px 0;
+}
+
+.hero-button__franchise {
+  background-color: var(--color-main);
+  font-size: 24px;
+  padding: 21px 50px;
+}
+
+.franchise-buttons {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+/* ===== FRANCHISE PAGE - Section / Business Models ===== */
+
+.business-models {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 90px 50px;
+}
+
+.business-models__cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 21px;
+}
+
+.business-models__card {
+  background-color: #F1EFE5;
+  border-radius: 15px;
+  border: 1px solid #B8B8B8;
+}
+
+.business-models__title {
+  font-size: 60px;
+  font-family: var(--font-main);
+  font-weight: 600;
+  line-height: 87%;
+  color: var(--color-secondary);
+  margin: 0;
+}
+
+.business-models__description {
+  line-height: 150%;
+  font-size: 24px;
+  font-family: var(--font-main);
+  color: var(--text--main);
+  text-align: center;
+  width: 70%;
+  margin: 50px 0 75px 0;
+}
+
+.business-models__card-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 25px 140px 25px;
+}
+
+.business-models__card-title {
+  font-size: 24px;
+  font-family: var(--font-main);
+  font-weight: 600;
+  line-height: 100%;
+  margin-bottom: 0;
+  color: var(--text--main);
+}
+
+.business-models__card-text {
+  font-size: 17px;
+  line-height: 140%;
+  color: var(--text--main);
+  font-weight: 400;
+  font-family: var(--font-main);
+  margin: 25px 0;
+}
+
+.business-models__card-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.business-models__card-item {
+  line-height: 100%;
+  font-weight: 600;
+  color: #919191;
+  font-size: 17px;
+  font-family: var(--font-main);
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  justify-content: start;
 }

@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import logo from "../../assets/images/global/qargo-logo.png";
 
 export const NavBar = () => {
@@ -23,12 +23,12 @@ export const NavBar = () => {
       <ul className="navbar-links">
         {links.map((link) => (
           <li key={link.to}>
-            <Link
+            <NavLink
               to={link.to}
-              className="navbar-link"
+              className={({ isActive }) => isActive ? "navbar-link active" : "navbar-link" }
             >
               {link.label}
-            </Link>
+            </NavLink>
           </li>
         ))}
       </ul>
