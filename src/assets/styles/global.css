@@ -212,6 +212,7 @@
   cursor: pointer;
   font-family: var(--font-main);
   line-height: 20px;
+  font-weight: 700;
 }
 
 .hero-button {
@@ -447,6 +448,7 @@
   font-family: var(--font-main);
   font-size: 18px;
   width: 95%;
+  font-weight: 400;
 }
 
 .start-franchise__buttons {
@@ -466,6 +468,7 @@
   color: var(--color-white);
   font-family: var(--font-main);
   font-weight: 600;
+  font-size: 20px;
 }
 
 /* ===== FRANCHISE PAGE - Section / Header ===== */

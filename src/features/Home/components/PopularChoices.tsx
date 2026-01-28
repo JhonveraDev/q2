@@ -7,7 +7,9 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 export const PopularChoices = () => {
+  
   const products = popularChoicesData;
+
   return (
     <div className="popular-choices">
       <h2 className="popular-choices__title">Most popular choices</h2>
@@ -17,7 +19,7 @@ export const PopularChoices = () => {
         loop={true}
         initialSlide={1}
         slidesPerView={3}
-        spaceBetween={5}
+        spaceBetween={2}
         pagination={{ clickable: true }}
         modules={[Pagination]}
         className="popular-choices__slider"
